@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const devs = ['389090790984515594','350408440566382592'];
+const devs = ['451828723017056268','357914115433562114'];
 var prefix = "!";
 const adminprefix = "!"
 const db = require('quick.db');
@@ -2875,7 +2875,7 @@ client.on("message", (message) => {
 });  
 
 const sWlc = {}
-const premium = ['389090790984515594']
+const premium = ['451828723017056268']
 client.on('message', message => {
 var prefix = "!";
 if(message.channel.type === "dm") return;
