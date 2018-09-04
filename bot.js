@@ -424,7 +424,7 @@ client.on('message' , message => {
   
 client.on('message', message => {
       if (!devs.includes(message.author.id)) return;
-  if (message.content.startsWith(adminprefix + 'sliver')) {
+  if (message.content.startsWith(adminprefix + 'FoxBot')) {
     if (!devs.includes(message.author.id)) return; 
 let args = message.content.split(' ').slice(1).join(' ');
 
@@ -437,7 +437,7 @@ m.sendMessage(args)
 client.on('ebnklb',function(ebnklb) {
     
     if(ebnklb.content.startsWith(`<@${client.user.id}>`)) {
-        ebnklb.channel.send('Hey Im **Sliver bot !**  A Nice Bot Developed By:`MHSTR`')
+        ebnklb.channel.send('Hey Im **FoxBot !**  A Nice Bot Developed By:`MHSTR`')
         ebnklb.channel.send('My Prefix `!`')
 
     }
