@@ -549,6 +549,8 @@ if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send
 『❖!ccolors <number> / ينشا لك الوان مع كم الوان تبي』
 **
    `,`
+
+        ***__Games orders__***
  **       
 『!rps / حجر ورقة مقص』
 『!speed / اسرع كتابة』
@@ -607,7 +609,7 @@ if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send
         })
     })
     }
-}); 
+});
 client.on('message', message => {
      if (message.content === (prefix + "help")) {
      let embed = new Discord.RichEmbed()
