@@ -483,6 +483,7 @@ if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send
 **
         ***__General orders__***
 **
+『!ping/يورجيك نسبة اتصال البوت』
 『!allbots/لعرض جميع البوتات الي بالسيرفر』
 『!server/يعرض لك معلومات عن السيرفر』
 『!bot/يعرض لك كل معلومات البوت』
