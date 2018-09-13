@@ -1255,7 +1255,7 @@ client.on("message", message => {
         if(command === "skin") {
                 const args = message.content.split(" ").slice(1).join(" ")
         if (!args) return message.channel.send("** Type your skin name **");
-        const image = new Discord.Attachment(`https://visage.surgeplay.com/full/256/${args}`, "skin.png");
+        const image = new Discord.Attachment(`https://fr.namemc.com/profile/${args}.1`, "skin.png");
     message.channel.send(image)
         }
     });
